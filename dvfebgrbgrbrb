@@ -1,0 +1,29 @@
+[33mcommit a4e36ca9edb47952855339d37eaae81e1d83ff47[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Giordan Garcia <giordangarcia12@gmail.com>
+Date:   Sat Aug 26 18:02:55 2023 -0300
+
+    Order, Instant, ISO 8601 - PART 1
+
+[33mcommit 9668fc053e3b565bafb97e42e970e7cb3a8b71ac[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Giordan Garcia <giordangarcia12@gmail.com>
+Date:   Sat Aug 26 17:30:11 2023 -0300
+
+    Service layer, component registration
+
+[33mcommit cacadaf5f7aae0c58d0f0118134addbaadd9448c[m
+Author: Giordan Garcia <giordangarcia12@gmail.com>
+Date:   Sat Aug 26 17:00:47 2023 -0300
+
+    JPA repository, dependency injection, database seeding
+
+[33mcommit eaedfcd2cdd128de4530f6b2cb541de8c1c018e0[m
+Author: Giordan Garcia <giordangarcia12@gmail.com>
+Date:   Fri Aug 25 15:15:37 2023 -0300
+
+    H2 database, test profile, JPA
+
+[33mcommit f27eb7f74d17e93aa52bb74bb042c89311c5e281[m
+Author: Giordan Garcia <giordangarcia12@gmail.com>
+Date:   Fri Aug 25 14:46:15 2023 -0300
+
+    User entity and resource
