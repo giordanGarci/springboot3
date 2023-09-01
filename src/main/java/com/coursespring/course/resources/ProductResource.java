@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.coursespring.course.entities.Product;
-import com.coursespring.course.service.ProductService;
+import com.coursespring.course.services.ProductService;
 
 @RestController
 @RequestMapping(value = "/products")

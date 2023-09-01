@@ -1,4 +1,4 @@
-package com.coursespring.course.service;
+package com.coursespring.course.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import com.coursespring.course.entities.User;
 import com.coursespring.course.repositories.UserRepository;
+import com.coursespring.course.services.exceptions.ResourceNotFoundException;
+
 import jakarta.persistence.EntityNotFoundException;
 
 @Service
@@ -22,7 +24,7 @@ public class UserService {
 	
 	public User findById(Long id) {
 		Optional<User> obj = userRepository.findById(id);
-		return obj.get();
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));	
 	}
 	
 	public User insert(User user) {

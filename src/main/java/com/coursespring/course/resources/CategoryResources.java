@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.coursespring.course.entities.Category;
-import com.coursespring.course.service.CategoryService;
+import com.coursespring.course.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")

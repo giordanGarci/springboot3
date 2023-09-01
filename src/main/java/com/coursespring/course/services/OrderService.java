@@ -1,4 +1,4 @@
-package com.coursespring.course.service;
+package com.coursespring.course.services;
 
 import java.util.List;
 import java.util.Optional;
