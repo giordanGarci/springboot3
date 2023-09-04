@@ -45,11 +45,15 @@ public class UserService {
 	}
 
 	public User update(Long id, User user) {
-		User obj = userRepository.findById(id)
+		try{User obj = userRepository.findById(id)
 				.orElseThrow(() -> new EntityNotFoundException("Usuário com Id: " + id + " não encontrado."));
 
 		updateData(obj, user);
 		return userRepository.save(obj);
+		}catch (EntityNotFoundException e) {
+	        throw new ResourceNotFoundException(id);
+
+		}
 	}
 
 	private void updateData(User entity, User user) {
