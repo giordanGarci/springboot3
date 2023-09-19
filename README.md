@@ -48,4 +48,6 @@ Se desejar contribuir para o projeto, sinta-se à vontade para enviar um pull re
 
 Este projeto foi uma oportunidade valiosa de aprendizado e prática em desenvolvimento Java, criação de APIs RESTful e gerenciamento de banco de dados. Estou entusiasmado para continuar aprimorando-o e expandindo meu conhecimento na área.
 
+Obs.: Este projeto está atualmente em manutenção contínua para cumprir todos os requisitos dos objetivos listados acima e melhorar sua funcionalidade geral.
+
 ⚙️⚙️⚙️
